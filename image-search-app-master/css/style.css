@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
 :root {
-  --section-bg-color: #f8eded59;
+  --section-bg-color: #1e038359;
 }
 
 ::selection {
-  background-color: #e4bad4;
-  color: #fff;
+  background-color: #e2dfe7;
+  color: #97e28d;
 }
 
 body {
@@ -22,7 +22,7 @@ h3 {
 }
 
 h1 {
-  background-image: linear-gradient(to left, #62274a, #e4bad4d3);
+  background-image: linear-gradient(to left, #3d17c4, #1f0916d3);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -32,7 +32,7 @@ h1 {
   font-family: "Comfortaa", cursive;
   letter-spacing: 1px;
   --bs-btn-color: #fff;
-  --bs-btn-bg: #92d4b7;
+  --bs-btn-bg: #5a15c9;
   --bs-btn-border-color: #92d4b7;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #6bae91;
@@ -52,7 +52,7 @@ header {
 }
 
 .form-control:focus {
-  border-color: #be9fb2;
+  border-color: #044d43;
   box-shadow: 0 0 0 0.25rem #84506f2d;
 }
 
