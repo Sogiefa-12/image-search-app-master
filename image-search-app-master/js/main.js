@@ -5,7 +5,7 @@ $(function () {
   let data = [];
 
   async function searchImgs() {
-    const accessKey = "KmAl00U7hxyRuHW5mBmMh-rbbRK0hPp-lZwfBJ6xrMk";
+    const accessKey = "n-CV_9zs4aFEA0Qcuef-iDjjJClvY686kOCRWhT1YEo";
     const url = `https://api.unsplash.com/search/photos?page=${page}&query=${searchInput}&client_id=${accessKey}`;
     const searchApi = await fetch(url);
     const apiResponse = await searchApi.json();
